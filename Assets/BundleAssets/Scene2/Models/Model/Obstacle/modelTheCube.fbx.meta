@@ -29,7 +29,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Tx_TheCube
-    second: {fileID: 2100000, guid: 4bd82d3442f86445a8c10b159cdb2eb2, type: 2}
+    second: {fileID: 2100000, guid: e7515a41f0a858e4da782646a1021cf1, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

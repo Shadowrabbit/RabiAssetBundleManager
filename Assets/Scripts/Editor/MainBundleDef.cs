@@ -7,13 +7,14 @@
 //    *(__\_\        @Copyright  Copyright (c) 2021, Shadowrabbit
 // ******************************************************************
 
-namespace RB
+namespace RB.Editor
 {   
     public class MainBundleDef : BaseSingleTon<MainBundleDef>
     {
-        public const string ConfigFolder = "Assets/Scripts/Editor/Assets/"; //设置资源储存目录
+        public const string ConfigFolder = "Assets/Scripts/Editor/Assets/"; //设置文件储存目录
         public const string ConfigPath = "Assets/Scripts/Editor/Assets/MainConfig.asset"; //设置资源路径
         public const float ButtonWidth1 = 75f; //按钮宽度
+        public const float ButtonWidth2 = 120f; //按钮宽度
         public const float ButtonHeight1 = 40f; //按钮高度
     }
 }   

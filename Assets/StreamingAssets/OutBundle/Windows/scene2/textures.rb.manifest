@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 1528471920
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 17d775cc89d37f5dba4cfde7b98265ce
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c90fc19e2679e5295d10bd00f33cb4c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundleAssets/Scene2/Textures/scorebar.png
+- Assets/BundleAssets/Scene2/Textures/Effect_Texture/CoinCollect.png
+- Assets/BundleAssets/Scene2/Textures/Tx_Gave.jpg
+- Assets/BundleAssets/Scene2/Textures/b-exit-active.png
+- Assets/BundleAssets/Scene2/Textures/Tx_modelB001-3.jpg
+- Assets/BundleAssets/Scene2/Textures/Tx_Fog.png
+- Assets/BundleAssets/Scene2/Textures/Tx_TheCube2.png
+- Assets/BundleAssets/Scene2/Textures/Tx_TheCube1.png
+- Assets/BundleAssets/Scene2/Textures/Effect_Texture/TheCube_Star.png
+- Assets/BundleAssets/Scene2/Textures/Tx_modelB001-4.jpg
+- Assets/BundleAssets/Scene2/Textures/b-pause-active.png
+- Assets/BundleAssets/Scene2/Textures/b-restart.png
+- Assets/BundleAssets/Scene2/Textures/Num3.png
+- Assets/BundleAssets/Scene2/Textures/Tx_TheCube3.png
+- Assets/BundleAssets/Scene2/Textures/Tx_Board.jpg
+- Assets/BundleAssets/Scene2/Textures/b-pause.png
+- Assets/BundleAssets/Scene2/Textures/Effect_Texture/TheCube_Magnet.png
+- Assets/BundleAssets/Scene2/Textures/Road.jpg
+- Assets/BundleAssets/Scene2/Textures/loadingbar.png
+- Assets/BundleAssets/Scene2/Textures/button-next.psd
+- Assets/BundleAssets/Scene2/Textures/coin.png
+- Assets/BundleAssets/Scene2/Textures/b-resume.png
+- Assets/BundleAssets/Scene2/Textures/b-restart-active.png
+- Assets/BundleAssets/Scene2/Textures/b-itemx2.png
+- Assets/BundleAssets/Scene2/Textures/Num1.png
+- Assets/BundleAssets/Scene2/Textures/title.png
+- Assets/BundleAssets/Scene2/Textures/loadingbar-bg.png
+- Assets/BundleAssets/Scene2/Textures/b-exit.png
+- Assets/BundleAssets/Scene2/Textures/anykeytoplay.png
+- Assets/BundleAssets/Scene2/Textures/b-itemstar.png
+- Assets/BundleAssets/Scene2/Textures/loading-Color.png
+- Assets/BundleAssets/Scene2/Textures/b-itemshoe.png
+- Assets/BundleAssets/Scene2/Textures/Tx_Stone.jpg
+- Assets/BundleAssets/Scene2/Textures/menu.psd
+- Assets/BundleAssets/Scene2/Textures/CoinTexture.jpg
+- Assets/BundleAssets/Scene2/Textures/b-resume-active.png
+- Assets/BundleAssets/Scene2/Textures/Tx_modelB001-6.jpg
+- Assets/BundleAssets/Scene2/Textures/Num2.png
+- Assets/BundleAssets/Scene2/Textures/Tx_modelB001-2.jpg
+- Assets/BundleAssets/Scene2/Textures/Effect_Texture/TheCube_Double.png
+- Assets/BundleAssets/Scene2/Textures/Tx_modelB001.jpg
+- Assets/BundleAssets/Scene2/Textures/Effect_Texture/TheCube_Shoes.png
+- Assets/BundleAssets/Scene2/Textures/Tx_TheCube4.png
+- Assets/BundleAssets/Scene2/Textures/Tx_modelB001-5.jpg
+- Assets/BundleAssets/Scene2/Textures/Tx_Car.jpg
+- Assets/BundleAssets/Scene2/Textures/Num0.png
+- Assets/BundleAssets/Scene2/Textures/b-itemmagnet.png
+Dependencies: []

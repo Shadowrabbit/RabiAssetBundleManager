@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2180901976
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: scene1/audio.rb
+      Dependencies: {}
+    Info_1:
+      Name: scene1/textures.rb
+      Dependencies: {}
+    Info_2:
+      Name: scene2/audio.rb
+      Dependencies: {}
+    Info_3:
+      Name: scene2/materials.rb
+      Dependencies:
+        Dependency_0: scene2/shader.rb
+        Dependency_1: scene2/textures.rb
+    Info_4:
+      Name: scene2/models.rb
+      Dependencies:
+        Dependency_0: scene2/materials.rb
+    Info_5:
+      Name: scene2/prefabs.rb
+      Dependencies:
+        Dependency_0: scene2/materials.rb
+        Dependency_1: scene2/models.rb
+    Info_6:
+      Name: scene2/shader.rb
+      Dependencies: {}
+    Info_7:
+      Name: scene2/textures.rb
+      Dependencies: {}
+    Info_8:
+      Name: scene2.rb
+      Dependencies: {}

@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c215d2c86b49faac80965360f4af50, type: 3}
   m_Name: MainConfig
   m_EditorClassIdentifier: 
-  targetFolderName: TargetBundle
-  assetFolder: D:/workPlace/RabiAssetBundleManager/Assets/BundleAssets
+  assetFolder: D:/RabiAssetBundleManager/Assets/BundleAssets

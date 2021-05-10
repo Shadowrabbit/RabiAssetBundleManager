@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 2829298649
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a4c6b53ca3e7ecabe45d0b158c6c8ea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundleAssets/Scene2/Materials/Vampire_Texture.mat
+- Assets/BundleAssets/Scene2/Materials/Board.mat
+- Assets/BundleAssets/Scene2/Materials/Tx_modelB001-5.mat
+- Assets/BundleAssets/Scene2/Materials/TheCube_Magnet.mat
+- Assets/BundleAssets/Scene2/Materials/Car_Texture.mat
+- Assets/BundleAssets/Scene2/Materials/Tx_modelB001-2.mat
+- Assets/BundleAssets/Scene2/Materials/Store.mat
+- Assets/BundleAssets/Scene2/Materials/TheCube_Jump.mat
+- Assets/BundleAssets/Scene2/Materials/Tx_modelB001-3.mat
+- Assets/BundleAssets/Scene2/Materials/Tx_modelB001.mat
+- Assets/BundleAssets/Scene2/Materials/TheCube_Run.mat
+- Assets/BundleAssets/Scene2/Materials/Road.mat
+- Assets/BundleAssets/Scene2/Materials/CoinTexture.mat
+- Assets/BundleAssets/Scene2/Materials/Tx_modelB001-6.mat
+- Assets/BundleAssets/Scene2/Materials/TheCube_Multiply.mat
+- Assets/BundleAssets/Scene2/Materials/Gave.mat
+- Assets/BundleAssets/Scene2/Materials/Tx_modelB001-4.mat
+Dependencies:
+- D:/RabiAssetBundleManager/Assets/StreamingAssets/OutBundle/Windows/scene2/shader.rb
+- D:/RabiAssetBundleManager/Assets/StreamingAssets/OutBundle/Windows/scene2/textures.rb

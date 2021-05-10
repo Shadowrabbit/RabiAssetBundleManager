@@ -7,13 +7,12 @@
 //    *(__\_\        @Copyright  Copyright (c) 2021, Shadowrabbit
 // ******************************************************************
 
-using System;
 using System.IO;
-using JetBrains.Annotations;
+using RB.Core;
 using UnityEditor;
 using UnityEngine;
 
-namespace RB
+namespace RB.Editor
 {
     public class MainBundleWindow : EditorWindow
     {
@@ -27,7 +26,7 @@ namespace RB
         private void OnGUI()
         {
             GUILayout.BeginHorizontal();
-            if (GUILayout.Button("目录选择", GUILayout.Width(MainBundleDef.ButtonWidth1),
+            if (GUILayout.Button("资源目录", GUILayout.Width(MainBundleDef.ButtonWidth1),
                 GUILayout.Height(MainBundleDef.ButtonHeight1)))
             {
                 OnClickFolderSelect();
@@ -41,6 +40,27 @@ namespace RB
             {
                 OnClickAutoSetTag();
             }
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button("Build Win", GUILayout.Width(MainBundleDef.ButtonWidth2),
+                GUILayout.Height(MainBundleDef.ButtonHeight1)))
+            {
+                OnClickBuildWinBundles();
+            }
+
+            if (GUILayout.Button("Build Android", GUILayout.Width(MainBundleDef.ButtonWidth2),
+                GUILayout.Height(MainBundleDef.ButtonHeight1)))
+            {
+                OnClickBuildAndroidBundles();
+            }
+
+            if (GUILayout.Button("Build IOS", GUILayout.Width(MainBundleDef.ButtonWidth2),
+                GUILayout.Height(MainBundleDef.ButtonHeight1)))
+            {
+                OnClickBuildIosBundles();
+            }
+
+            GUILayout.EndHorizontal();
         }
 
         [MenuItem("Rabi/AssetBundleManager/Open MainWindow &[")]
@@ -140,31 +160,33 @@ namespace RB
             }
 
             var filePath = fileInfo.FullName.Replace("\\", "/");
-            //Assets在路径中的索引
-            var assetFolderIndex = filePath.IndexOf("Assets", StringComparison.Ordinal);
-            if (assetFolderIndex == -1)
-            {
-                Debug.LogError("找不到Assets目录");
-                return;
-            }
-
-            //相对Assets目录
-            var relativeAssetFolder = filePath.Substring(assetFolderIndex);
-            var foldNames = relativeAssetFolder.Split('/');
-            //场景根目录下的资源 场景资源
-            if (foldNames.Length <= 4)
-            {
-                Debug.Log($"场景资源:{filePath}");
-            }
-
-            //资源的ab包名称 场景根目录下的.unity少一级
-            var assetBundleName = foldNames.Length <= 4
-                ? $"{foldNames[2]}"
-                : $"{foldNames[2]}/{foldNames[3]}";
-            Debug.Log($"文件:{fileInfo.FullName} 包名:{assetBundleName}");
+            //相对Assets路径
+            var relativeAssetFolder = ResourceDef.GetRelativeAssetFolder(filePath);
+            var bundleName = ResourceDef.GetBundleName(filePath);
+            //Debug.Log($"文件:{fileInfo.FullName} 包名:{bundleName}");
             var assetImporter = AssetImporter.GetAtPath(relativeAssetFolder);
-            assetImporter.assetBundleName = assetBundleName;
-            assetImporter.assetBundleVariant = "rb";
+            assetImporter.assetBundleName = bundleName;
+            assetImporter.assetBundleVariant = ResourceDef.BundleSuffix;
+        }
+
+
+        private void BuildBundles(BuildTarget buildTarget)
+        {
+            var outPath = _mainBundleModel.GetPlatformFolder(buildTarget);
+            //目录存在 删除
+            if (Directory.Exists(outPath))
+            {
+                Directory.Delete(outPath, true);
+            }
+            //目录不存在 创建
+            else
+            {
+                Directory.CreateDirectory(outPath);
+            }
+
+            BuildPipeline.BuildAssetBundles(outPath, BuildAssetBundleOptions.None, buildTarget);
+            AssetDatabase.Refresh();
+            Debug.Log("打包完成");
         }
 
         /// <summary>   
@@ -188,6 +210,31 @@ namespace RB
             var rootDirectoryInfo = new DirectoryInfo(_mainBundleModel.MainConfig.assetFolder);
             Debug.Log($"待处理资源根目录:{rootDirectoryInfo}");
             AutoSetTag(rootDirectoryInfo);
+            Debug.Log("bundle标签设置完成");
+        }
+
+        /// <summary>
+        /// 构建AB包
+        /// </summary>
+        private void OnClickBuildWinBundles()
+        {
+            BuildBundles(BuildTarget.StandaloneWindows64);
+        }
+
+        /// <summary>
+        /// 构建AB包
+        /// </summary>
+        private void OnClickBuildAndroidBundles()
+        {
+            BuildBundles(BuildTarget.Android);
+        }
+
+        /// <summary>
+        /// 构建AB包
+        /// </summary>
+        private void OnClickBuildIosBundles()
+        {
+            BuildBundles(BuildTarget.iOS);
         }
     }
 }

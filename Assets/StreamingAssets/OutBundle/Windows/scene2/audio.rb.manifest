@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3922288160
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea87e738f219b06cadea14b7cb399a05
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundleAssets/Scene2/Audio/hit.mp3
+- Assets/BundleAssets/Scene2/Audio/coin.mp3
+- Assets/BundleAssets/Scene2/Audio/slide.ogg
+- Assets/BundleAssets/Scene2/Audio/button.mp3
+- Assets/BundleAssets/Scene2/Audio/getitem.mp3
+Dependencies: []

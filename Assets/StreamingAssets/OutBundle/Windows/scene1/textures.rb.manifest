@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3911648189
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 204c8445337141d775e86e43e10deb00
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundleAssets/Scene1/Textures/unitychan_tile6.png
+- Assets/BundleAssets/Scene1/Textures/unitychan_tile3.png
+- Assets/BundleAssets/Scene1/Textures/Floor.jpg
+- Assets/BundleAssets/Scene1/Textures/WhileFloor.jpg
+Dependencies: []

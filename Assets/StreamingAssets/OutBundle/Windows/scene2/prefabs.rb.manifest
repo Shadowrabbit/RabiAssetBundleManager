@@ -1,0 +1,85 @@
+ManifestFileVersion: 0
+CRC: 1813519308
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3a68af95824eddb5b5c09a69f9a0454f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e2ca8a5ec55acc7a43c3e28590cb4890
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3fd34d82b81094e3d995a3faffc29b37, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e5feebd9ae8747f19f84cda983653cd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28b489b47396249f7ad768bbd451577c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8577f49d468a244a987e71648e1cec18, type: 3}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundleAssets/Scene2/Prefabs/Item/Grave.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_9.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Prefebs/TheCube_Double1.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Prefebs/TheCube_Star1.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_2.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_12.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_5.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_10.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Item/Obstacle_Roll.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Item/Item_Magnet.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_11.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Item/Item_Sprint.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Prefebs/CoinCollectFlash.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Character/Player.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Item/Item_Jump.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Item/Item_Multiply.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_6.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_1.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Item/Barrier.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_4.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Floor/Floor.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Item/Coin.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_3.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Item/Car.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_8.prefab
+- Assets/BundleAssets/Scene2/Prefabs/SetStartPlatform/StaterPlatform.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Prefebs/TheCube_Magnet1.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Building/Building_7.prefab
+- Assets/BundleAssets/Scene2/Prefabs/Prefebs/TheCube_Shoe1.prefab
+Dependencies:
+- D:/RabiAssetBundleManager/Assets/StreamingAssets/OutBundle/Windows/scene2/materials.rb
+- D:/RabiAssetBundleManager/Assets/StreamingAssets/OutBundle/Windows/scene2/models.rb

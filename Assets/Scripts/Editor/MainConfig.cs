@@ -9,11 +9,10 @@
 
 using UnityEngine;
 
-namespace RB
+namespace RB.Editor
 {
     public class MainConfig : ScriptableObject
     {
-        public string targetFolderName; //存放打包资源的目录名
         public string assetFolder; //需要处理的资源目录
     }
 }

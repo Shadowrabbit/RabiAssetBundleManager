@@ -1,0 +1,59 @@
+ManifestFileVersion: 0
+CRC: 2611914229
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: de588875ec411b63e33b4cceff36584a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 38fdd411dcbcb68bc70c033a9953449a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/Materials/Tx_TheCube.mat
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/modelStone.fbx
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/Materials/Taxi_Texture.mat
+- Assets/BundleAssets/Scene2/Models/Model/Player/Vampire-Title/Vampire_No_Animation.FBX
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/Obstacle_Defend_Box.fbx
+- Assets/BundleAssets/Scene2/Models/Model/Building/NewBuilding/modelB1-1.fbx
+- Assets/BundleAssets/Scene2/Models/Model/Player/Vampire-InGame/AnimationFrame.txt
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/modelGave.fbx
+- Assets/BundleAssets/Scene2/Models/Model/Coin/Coin.FBX
+- Assets/BundleAssets/Scene2/Models/Model/Player/Vampire-InGame/Animation_Frame.txt
+- Assets/BundleAssets/Scene2/Models/Model/Building/NewBuilding/modelB1-2.fbx
+- Assets/BundleAssets/Scene2/Models/Model/Floor/modelRoad.fbx
+- Assets/BundleAssets/Scene2/Models/Model/Player/Vampire-InGame/Vempire_No_Animation.FBX
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/modelBoard.fbx
+- Assets/BundleAssets/Scene2/Models/Model/Player/Vampire-InGame/Vempire_Animation.FBX
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/Materials/lambert1.mat
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/Materials/initialShadingGroup1.mat
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/modelCar.fbx
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/modelTheCube.fbx
+- Assets/BundleAssets/Scene2/Models/Model/Player/Vampire-Title/Vampire_Animation.FBX
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/Obstacle_Stop_Fat.fbx
+- Assets/BundleAssets/Scene2/Models/Model/Obstacle/Obstacle_Cone80.fbx
+Dependencies:
+- D:/RabiAssetBundleManager/Assets/StreamingAssets/OutBundle/Windows/scene2/materials.rb

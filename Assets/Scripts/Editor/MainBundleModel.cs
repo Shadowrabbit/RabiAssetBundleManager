@@ -7,7 +7,11 @@
 //    *(__\_\        @Copyright  Copyright (c) 2021, Shadowrabbit
 // ******************************************************************
 
-namespace RB
+using RB.Core;
+using UnityEditor;
+using UnityEngine;
+
+namespace RB.Editor
 {
     public class MainBundleModel
     {
@@ -16,9 +20,24 @@ namespace RB
         /// </summary>
         public MainConfig MainConfig { get; set; }
 
-        public MainBundleModel()
+        /// <summary>
+        /// 获取平台AB包构建目录 
+        /// </summary>
+        /// <returns></returns>
+        public string GetPlatformFolder(BuildTarget buildTarget)
         {
-           
+            switch (buildTarget)
+            {
+                case BuildTarget.StandaloneWindows:
+                case BuildTarget.StandaloneWindows64:
+                    return $"{Application.dataPath}/StreamingAssets/{ResourceDef.OutBuildFolderName}/Windows";
+                case BuildTarget.Android:
+                    return $"{Application.dataPath}/StreamingAssets/{ResourceDef.OutBuildFolderName}/Android";
+                case BuildTarget.iOS:
+                    return $"{Application.dataPath}/StreamingAssets/{ResourceDef.OutBuildFolderName}/Iphone";
+            }
+
+            return string.Empty;
         }
     }
 }
